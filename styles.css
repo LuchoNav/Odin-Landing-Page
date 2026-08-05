@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/*HEADER Y SECTION 1*/
+.section-1{
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
