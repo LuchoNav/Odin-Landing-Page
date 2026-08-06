@@ -5,6 +5,10 @@ body {
 
 }
 
+/* 
+*{
+    outline: 2px solid;
+} */
 
 /*HEADER Y SECTION 1*/
 
@@ -72,4 +76,44 @@ button {
    padding: 8px 32px;
    border-radius: 5px;
    margin-top: 15px;
+}
+
+/*information-heading*/
+
+.information-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 200px;
+}
+.container-1 {
+    display: flex;
+    font-size: 16px;
+    padding: 60px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.text {
+    width: 120px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
